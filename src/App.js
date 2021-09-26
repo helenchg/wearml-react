@@ -15,7 +15,7 @@ const App = () => {
         <input
           type="text"
           name="fname"
-          data-wml-speech-command="Enter First Name"
+          data-wml-speech-command="Alive Chicken"
           data-wml-style=".overlay"
         />
       </form>

@@ -2,9 +2,9 @@ import Header from "./components/Header";
 import { Button } from "./components/Button-style";
 
 //import "wearml/wearml_engine";
-import wearML from "wearml/wearml_engine";
+//import wearML from "wearml/wearml_engine";
 
-window.wearML = wearML;
+//window.wearML = wearML;
 
 //wearML.setCommandSet("menu");
 const App = () => {

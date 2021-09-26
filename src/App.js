@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import { Button } from "./components/Button-style";
 
-import "wearml/wearml_engine";
 //import wearML from "wearml/wearml_engine";
 
 //window.wearML = wearML;
@@ -10,6 +9,7 @@ import "wearml/wearml_engine";
 const App = () => {
   return (
     <div className="container">
+      <Header />
       <form>
         First name:{" "}
         <input
@@ -19,7 +19,6 @@ const App = () => {
           data-wml-style=".overlay"
         />
       </form>
-      <Header />
       <Button backgroundColor="red">Click this</Button>
       <Button backgroundColor="blue">Click that</Button>
     </div>

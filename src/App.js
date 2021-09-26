@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import { Button } from "./components/Button-style";
 
-//import "wearml/wearml_engine";
+import "wearml/wearml_engine";
 //import wearML from "wearml/wearml_engine";
 
 //window.wearML = wearML;
